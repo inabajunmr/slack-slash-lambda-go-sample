@@ -1,6 +1,6 @@
 # Slack Slash Commands sample
 
-Slack Slash Commands sample implemented by golang and AWS Lambda.
+Slack Slash Commands sample implementation by golang and AWS Lambda.
 
 ## Requirements
 
