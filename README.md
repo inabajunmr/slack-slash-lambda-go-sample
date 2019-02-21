@@ -23,5 +23,5 @@ Variables:
 
 ### Deploy Command
 ```
-make deploy BUCKET="your S3 bucket name" PROFILE="your aws profile"
+make deploy BUCKET="your S3 bucket name" PROFILE="your aws profile" STACK_NAME="your stack name"
 ```

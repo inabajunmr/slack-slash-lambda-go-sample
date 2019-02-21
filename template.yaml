@@ -27,7 +27,6 @@ Resources:
       Environment: # More info about Env Vars: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#environment-object
         Variables:
           VERIFICATION_TOKEN: xxxxx
-          SLACK_ID: "USER_TOKEN:TOKEN"
 
 Outputs:
   SlackAPI:

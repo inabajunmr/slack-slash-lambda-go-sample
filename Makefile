@@ -8,4 +8,4 @@ build:
 
 deploy: build
 	sam package --template-file template.yaml --s3-bucket ${BUCKET} --output-template-file packaged.yaml
-	aws cloudformation deploy --template-file packaged.yaml --stack-name kot-slack  --capabilities CAPABILITY_IAM --profile ${PROFILE}
+	aws cloudformation deploy --template-file packaged.yaml --stack-name ${STACK_NAME}  --capabilities CAPABILITY_IAM --profile ${PROFILE}
